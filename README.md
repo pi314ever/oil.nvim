@@ -1,11 +1,13 @@
 > [!IMPORTANT]
 > This fork adds the functionality of moving files in and out of buffers with the file separator. However, there are known issues with the current approach:
-> It does not check for existing files at the destination: DATA MAY BE LOST WITHOUT WARNING!
-> 
+>
+> - It does not check for existing files at the destination: DATA MAY BE LOST WITHOUT WARNING!
+>
 > Please take necessary precautions when using this fork
 
 > [!NOTE]
 > This branch may not be up-to-date with the main branch. It is highly recommended to use the original [oil.nvim](https://github.com/stevearc/oil.nvim).
+>
 > A workaround is to use the solution mentioned [here](https://github.com/stevearc/oil.nvim/issues/117#issuecomment-2217295799).
 
 # oil.nvim
